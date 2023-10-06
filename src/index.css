@@ -2,20 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600&display=swap");
-
-@layer base {
-  :root {
-    --color-dark-gray: hsl(0, 0%, 63%);
-    --color-dark-gray-alt: hsl(0, 0%, 27%);
-    --color-black: hsl(0, 0%, 0%);
-    --color-white: hsl(0, 0%, 100%);
-  }
-}
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700;800&display=swap");
 
 body {
-  background-color: var(--color-white);
-  color: var(--color-black);
   margin: 0;
   font-family: "League Spartan", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -25,18 +14,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-
-h1 {
-  font-weight: 600;
-  font-size: 36px;
-}
-
-h2 {
-  font-weight: 600;
-  font-size: 26px;
-}
-
-header a {
-  color: var(--color-white);
 }

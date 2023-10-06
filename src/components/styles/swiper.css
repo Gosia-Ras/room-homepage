@@ -1,0 +1,25 @@
+.swiper-slide {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  place-items: center;
+}
+
+.swiper-navigation {
+  transform: translate(124px, -72px);
+}
+
+@media only screen and (max-width: 1320px) and (min-width: 996px) {
+  .swiper-navigation {
+    transform: translate(0px, -70px);
+  }
+}
+
+@media (max-width: 995px) {
+  .swiper-slide {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .swiper-navigation {
+    transform: translate(0px, -72px);
+  }
+}
