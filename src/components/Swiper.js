@@ -21,7 +21,7 @@ const Slides = () => {
   const swiperRef = useRef();
 
   return (
-    <section>
+    <section id="swiper">
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         slidesPerView={1}
@@ -68,7 +68,7 @@ const Slides = () => {
             </p>
             <a
               href="/"
-              className="flex items-center gap-4 hover:gap-5 hover:opacity-75 transition-all duration-200"
+              className="flex items-center gap-4 hover:gap-5 hover:opacity-75 transition-all duration-200 uppercase"
             >
               Shop now
               <img src={arrow} alt="arrow" />
@@ -112,7 +112,7 @@ const Slides = () => {
             </p>
             <a
               href="/"
-              className="flex items-center gap-4 hover:gap-5 hover:opacity-75 transition-all duration-200"
+              className="flex items-center gap-4 hover:gap-5 hover:opacity-75 transition-all duration-200 uppercase"
             >
               Shop now
               <img src={arrow} alt="arrow" />
@@ -156,7 +156,7 @@ const Slides = () => {
             </p>
             <a
               href="/"
-              className="flex items-center gap-4 hover:gap-5 hover:opacity-75 transition-all duration-200"
+              className="flex items-center gap-4 hover:gap-5 hover:opacity-75 transition-all duration-200 uppercase"
             >
               Shop now
               <img src={arrow} alt="arrow" />

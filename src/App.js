@@ -1,8 +1,6 @@
 import React from "react";
-import "./components/styles/about.css";
 import "./components/styles/swiper.css";
 import logo from "../src/components/images/logo.svg";
-
 import Slides from "./components/Swiper";
 import About from "./components/About";
 
@@ -26,7 +24,6 @@ function App() {
       </header>
       <main className="z-0 relative">
         <Slides />
-
         <About />
       </main>
       <footer>Footer Goes here</footer>
