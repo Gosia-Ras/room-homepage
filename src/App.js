@@ -25,9 +25,8 @@ function App() {
         </a>
       </header>
       <main className="z-0 relative">
-        <section className="Swiper">
-          <Slides />
-        </section>
+        <Slides />
+
         <About />
       </main>
       <footer>Footer Goes here</footer>
