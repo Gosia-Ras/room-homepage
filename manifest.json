@@ -1,6 +1,6 @@
 {
-  "short_name": "Room Homepage",
-  "name": "Room Homepage Project by Frontend Mentors",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "logo.svg",
