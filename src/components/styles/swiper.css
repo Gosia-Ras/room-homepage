@@ -1,3 +1,8 @@
+.swiper-slide img#furniture {
+  min-height: 400px;
+}
+
+/* overriding default swiper css */
 @media (min-width: 1220px) {
   .swiper-slide {
     display: flex !important;

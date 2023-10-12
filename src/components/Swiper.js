@@ -38,6 +38,7 @@ const Slides = () => {
               src={sliderPhoto1}
               className="w-full"
               alt="Furniture"
+              id="furniture"
             />
             <div className="swiper-navigation w-[19.4%] absolute bottom-0 right-0 desktop:-right-[19.4%] flex">
               <button
@@ -82,6 +83,7 @@ const Slides = () => {
               src={sliderPhoto2}
               className="w-full"
               alt="Furniture"
+              id="furniture"
             />
             <div className="swiper-navigation w-[19.4%] absolute bottom-0 right-0 desktop:-right-[19.4%] flex">
               <button
@@ -126,6 +128,7 @@ const Slides = () => {
               src={sliderPhoto3}
               className="w-full"
               alt="Furniture"
+              id="furniture"
             />
             <div className="swiper-navigation w-[19.4%] absolute bottom-0 right-0 desktop:-right-[19.4%] flex">
               <button

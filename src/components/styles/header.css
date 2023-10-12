@@ -1,0 +1,14 @@
+@media (max-width: 992px) {
+  header:not(.bg-white) a {
+    display: none !important;
+  }
+
+  header:not(.bg-white) img {
+    margin: 0 auto;
+    padding-right: 100px;
+  }
+
+  header.bg-white a:first-of-type {
+    padding-left: 25px;
+  }
+}

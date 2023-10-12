@@ -5,9 +5,10 @@ module.exports = {
     extend: {
       screens: {
         xs: "360px",
+        md: "992px",
         desktop: "1220px",
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-hamburgers")],
 };
