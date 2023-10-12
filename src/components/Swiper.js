@@ -1,5 +1,12 @@
 import { useRef } from "react";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import {
+  Navigation,
+  Pagination,
+  Scrollbar,
+  A11y,
+  Mousewheel,
+  Keyboard,
+} from "swiper/modules";
 import sliderPhoto1 from ".//images/desktop-image-hero-1.jpg";
 import sliderPhoto2 from ".//images/desktop-image-hero-2.jpg";
 import sliderPhoto3 from ".//images/desktop-image-hero-3.jpg";
@@ -23,13 +30,22 @@ const Slides = () => {
   return (
     <section id="swiper">
       <Swiper
-        modules={[Navigation, Pagination, Scrollbar, A11y]}
+        modules={[
+          Navigation,
+          Pagination,
+          Scrollbar,
+          A11y,
+          Mousewheel,
+          Keyboard,
+        ]}
         slidesPerView={1}
         onBeforeInit={(swiper) => {
           swiperRef.current = swiper;
         }}
         loop="true"
         id="swiper-wrapper"
+        mousewheel={true}
+        keyboard={true}
       >
         <SwiperSlide>
           <div className="w-full desktop:w-7/12 relative">
