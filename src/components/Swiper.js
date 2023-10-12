@@ -98,7 +98,7 @@ const Slides = () => {
               </button>
             </div>
           </div>
-          <div className="px-8 py-12 lg:p-12 ">
+          <div className="desktop:w-5/12 flex flex-col justify-center gap-4 px-8 py-10 desktop:py-0 desktop:px-[6%] desktop:pb-2">
             <h1 className="text-3xl desktop:text-[2.6rem] leading-7 font-bold desktop:leading-10">
               {" "}
               We are available all across the globe
@@ -142,7 +142,7 @@ const Slides = () => {
               </button>
             </div>
           </div>
-          <div className="px-8 py-12 lg:p-12">
+          <div className="desktop:w-5/12 flex flex-col justify-center gap-4 px-8 py-10 desktop:py-0 desktop:px-[6%] desktop:pb-2">
             <h1 className="text-3xl desktop:text-[2.6rem] leading-7 font-bold desktop:leading-10">
               {" "}
               Manufactured with the best materials

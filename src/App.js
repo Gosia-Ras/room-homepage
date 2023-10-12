@@ -26,7 +26,6 @@ function App() {
         <Slides />
         <About />
       </main>
-      <footer>Footer Goes here</footer>
     </div>
   );
 }
