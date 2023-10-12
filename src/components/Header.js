@@ -23,7 +23,7 @@ const Header = () => {
     "bg-slate-500": opened,
   });
 
-  const anchorClasses = classNames("hover:underline font-medium", {
+  const anchorClasses = classNames("font-medium", {
     "text-black xs:font-bold lowercase": opened,
     "text-white": !opened,
   });
