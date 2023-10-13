@@ -52,9 +52,7 @@ const Slides = () => {
             <img
               srcSet={`${sliderPhoto1Mobile} 320w, ${sliderPhoto1Mobile} 680w, ${sliderPhoto1}   960w, ${sliderPhoto1} 1980w`}
               src={sliderPhoto1}
-              sizes={`sizes="(max-width: 900px) 90vw, 
-              (max-width:1100px) 70vw, 
-              40vw">`}
+              sizes="(max-width: 992px) 100vw, (max-width:1199px) 80vw, 1990px"
               className="w-full furniture-photo"
               alt="Furniture"
             />
@@ -99,9 +97,7 @@ const Slides = () => {
             <img
               srcSet={`${sliderPhoto2Mobile} 320w, ${sliderPhoto2Mobile} 680w, ${sliderPhoto2}   960w, ${sliderPhoto2} 1980w`}
               src={sliderPhoto2}
-              sizes={`sizes="(max-width: 900px) 90vw, 
-              (max-width:1100px) 70vw, 
-              40vw">`}
+              sizes="(max-width: 992px) 100vw, (max-width:1199px) 80vw, 1990px"
               className="w-full furniture-photo"
               alt="Furniture"
             />
@@ -146,9 +142,7 @@ const Slides = () => {
             <img
               srcSet={`${sliderPhoto3Mobile} 320w, ${sliderPhoto3Mobile} 680w, ${sliderPhoto3}   960w, ${sliderPhoto3} 1980w`}
               src={sliderPhoto3}
-              sizes={`sizes="(max-width: 900px) 90vw, 
-              (max-width:1100px) 70vw, 
-              40vw">`}
+              sizes="(max-width: 992px) 100vw, (max-width:1199px) 80vw, 1990px"
               className="w-full furniture-photo"
               alt="Furniture"
             />
